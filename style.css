@@ -1,0 +1,11 @@
+/* Use the variables */
+.container {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 18px;
+  text-align: center;
+}
+
+body {
+  background-color: yellow;
+}

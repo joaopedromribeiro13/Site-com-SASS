@@ -1,0 +1,15 @@
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+$bgBody: yellow;
+
+/* Use the variables */
+.container {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+  text-align: center;
+}
+body {
+  background-color: $bgBody;
+}
