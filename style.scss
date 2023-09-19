@@ -1,15 +1,47 @@
 $bgcolor: lightblue;
-$textcolor: darkblue;
+$textcolor: rgb(0, 0, 0);
 $fontsize: 18px;
-$bgBody: yellow;
-
+$bgBody: rgba(236, 234, 223, 0.897);
 /* Use the variables */
+$font-pop: 'Poppins', sans-serif;
+$font-nunito: 'Nunito Sans', sans-serif;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
   text-align: center;
 }
-body {
+
+.pag1 {
   background-color: $bgBody;
+  width: 100%;
+  height: 100vh;
+  font-family: $font-pop;
+}
+
+nav {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.navbar ul li {
+  float: left;
+  padding-left: 3%;
+  list-style-type: none;
+}
+
+.conteudo1 {
+
+}
+
+
+pag2 {
+
 }

@@ -19,7 +19,9 @@
 
 nav {
   padding-top: 25px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 40% 60%;
   grid-template-columns: 40% 60%;
 }
 
